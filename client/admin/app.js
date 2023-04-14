@@ -1,3 +1,5 @@
 function block(){
-    if(localStorage.getItem("upr")!='"admin"') window.location.href = "/client/client/index.html" 
+    const upr = localStorage.getItem("upr")
+    const Pupr = JSON.parse(upr)
+    if(localStorage.getItem(Pupr)!='admin') window.location.href = "/client/client/index.html" 
 }
