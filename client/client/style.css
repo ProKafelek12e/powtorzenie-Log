@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+    margin: 0px;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
