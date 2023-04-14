@@ -10,20 +10,20 @@ body{
     align-items: center;
     background-color: aquamarine;
 }
-button{
-    font-size: 300%;
-    width: 240px;
-    height: 80px;
-}
-input{
-    font-size: 300%;
-    width: 240px;
-    height: 80px;
+#logger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}
+#logger input, button{
+    height: 50px;
+    width: 200px;
+    font-size: 180%;
 }
