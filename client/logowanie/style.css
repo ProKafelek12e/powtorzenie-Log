@@ -10,3 +10,20 @@ body{
     align-items: center;
     background-color: aquamarine;
 }
+button{
+    font-size: 300%;
+    width: 240px;
+    height: 80px;
+}
+input{
+    font-size: 300%;
+    width: 240px;
+    height: 80px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
